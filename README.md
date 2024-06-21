@@ -1,7 +1,7 @@
 # Word Online
 ## Um projeto CRUD para demonstrar de forma simples, a criação e edição de projetos word na web.
 
-Descreva aqui o que o seu projeto faz e o problema que ele resolve. Inclua uma visão geral sucinta do que o sistema é capaz de fazer e para quem ele é destinado. Se possível, mencione os diferencias do projeto que o destacam.
+Esse é um projeto acadêmico, para fins de estudo, aonde o objetivo era criar um sistema online, semelhante ao WORD, para criação de textos e edição dos mesmos
 
 ## Índice
 
