@@ -44,7 +44,7 @@ Após a instalação, para usar o projeto no visual studio, inicie pelo menu do 
 Necessário mudar a string do banco no arquivo `appsettings.json`, altere apenas o Server, para o seu local, na sequência, utilize o comando abaixo paa criar o banco e as tabelas.
 (Lembrando, necessário mudar a senha do SA, para a sua local, ou deixar com autenticação windows, basta apenas tirar o User ID e Password da string)
 
-\`\`\`bash
+\`\`\`
 Update-Database
 \`\`\`
 
