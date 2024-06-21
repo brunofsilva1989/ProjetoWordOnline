@@ -15,41 +15,38 @@ Esse é um projeto acadêmico, para fins de estudo, aonde o objetivo era criar u
 ## Tecnologias Usadas
 
 Liste as tecnologias, frameworks e bibliotecas utilizadas no projeto. Exemplo:
-- Node.js
-- React
-- MongoDB
+- .Net 8
+- ASP NET MVC
+- Entity Framework
+- SQL Server
 
 ## Instalação
 ### Pré-requisitos
 
 Antes de começar, verifique se tu  atendeu aos seguintes requisitos:
-- Tu instalou a versão mais recente de `node.js`
-- Tu tem uma máquina `Windows/Linux/Mac`.
+- Instalar o Runtime do ASP.NET Core 8.0.6 (para a correta visualização do Projeto.)
+- Instalar os Pacotes: EntityFrameworkCore, EntityFrameworkCore.Design, EntityFrameworkCore.SqlServer, EntityFrameworkCore.Tools - version: 8.0.6
+- Funciona tanto em `Windows/Linux/Mac`.
+  
 
 ### Configuração
 
-Para instalar o Nome do Projeto, siga estes passos:
+Para instalar o Word Online, siga estes passos:
 
-Linux e macOS:
+É necessário ter o Visual Studio 2022 instalado, e de preferência nas ultimas versões de atualização.
+O projeto no visual Studio roda sem problemas, e da mesma maneira no : Linux e macOS, Windows:
 
-\`\`\`bash
-sudo apt-get install nome_do_projeto
-\`\`\`
-
-Windows:
-
-\`\`\`bash
-install nome_do_projeto
-\`\`\`
 
 ## Como Usar
-Após a instalação, tu pode usar o projeto da seguinte maneira:
+Após a instalação, para usar o projeto no visual studio, inicie pelo menu do IIS Express, sem depuraação, para início mais rápido e leve.
+É necessário ter o SQL Express na máquina para criação das tabelas do sistema.
+
+Necessário mudar a string do banco no arquivo `appsettings.json`, altere apenas o Server, para o seu local, na sequência, utilize o comando abaixo paa criar o banco e as tabelas.
+(Lembrando, necessário mudar a senha do SA, para a sua local, ou deixar com autenticação windows, basta apenas tirar o User ID e Password da string)
 
 \`\`\`bash
-nome_do_projeto --option ARG
+Update-Database
 \`\`\`
-
-Inclua exemplos de como usar o projeto. Isso pode ser em forma de código ou linhas de comando. Certifique-se de explicar o que cada comando faz.
 
 ## Contribuindo
 
